@@ -1,0 +1,5 @@
+*.jar
+*.original
+*.bin
+*.lock
+build/test-results/test/binary/output.bin.idx
