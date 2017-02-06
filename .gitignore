@@ -1,10 +1,2 @@
-*.jar
-*.original
-*.bin
-*.lock
-build/test-results/test/binary/output.bin.idx
-build/reports/tests/test/classes/hello.HelloControllerIT.html
-build/reports/tests/test/index.html
-build/test-results/test/TEST-hello.HelloControllerIT.xml
-build/reports/tests/test/classes/hello.HelloControllerIT.html
-build/test-results/test/TEST-hello.HelloControllerIT.xml
+/build
+/.gradle
