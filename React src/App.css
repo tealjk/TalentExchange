@@ -1,0 +1,63 @@
+html, body, #root, .App {
+	height: 100%;
+	margin:auto;
+	max-width: 800px;
+}
+
+.App-header {
+  background-color: #002a70;
+  min-height: 60px;
+  color: white;
+  text-align: left;
+  
+}
+
+.App-intro {
+  font-size: 2em;
+}
+
+
+
+h1 {
+	margin: 0px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+form {
+	background-color: white;
+	height: calc(100% - 60px);
+	min-height:calc(100% -60px);
+	min-width:100%;
+}
+
+.Title {
+	color:white;
+	background-color:#4286f4;
+	font-size:2em;
+	border:none;
+	width:100%;
+	height:40px;
+	margin:0px;
+
+}
+
+.Collect {
+	height:40px;
+	width:100%;
+	font-size: 1.6em;
+	border:none;
+	padding-bottom: 10px;
+	text-indent:5px;
+}
+
+.Button {
+	color:white;
+	background-color: #002a70;
+	text-decoration:none;
+	font-size:2em;
+	border:none;
+	width:100%;
+	height:60px;
+	position:relative;
+}
