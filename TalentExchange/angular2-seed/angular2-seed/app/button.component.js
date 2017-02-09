@@ -1,4 +1,4 @@
-System.register(['angular2/core', './courses.component', './button.component', './table.component'], function(exports_1, context_1) {
+System.register(['angular2/core'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,38 +10,28 @@ System.register(['angular2/core', './courses.component', './button.component', '
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, courses_component_1, button_component_1, table_component_1;
-    var AppComponent;
+    var core_1;
+    var ButtonComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
-            },
-            function (courses_component_1_1) {
-                courses_component_1 = courses_component_1_1;
-            },
-            function (button_component_1_1) {
-                button_component_1 = button_component_1_1;
-            },
-            function (table_component_1_1) {
-                table_component_1 = table_component_1_1;
             }],
         execute: function() {
-            AppComponent = (function () {
-                function AppComponent() {
+            ButtonComponent = (function () {
+                function ButtonComponent() {
                 }
-                AppComponent = __decorate([
+                ButtonComponent = __decorate([
                     core_1.Component({
-                        selector: 'my-app',
-                        template: '<h2>MAINS!!!</h2><table></table>',
-                        directives: [courses_component_1.CoursesComponent, button_component_1.ButtonComponent, table_component_1.TableComponent]
+                        selector: 'button',
+                        template: '<button type="button">Click Me!</button>'
                     }), 
                     __metadata('design:paramtypes', [])
-                ], AppComponent);
-                return AppComponent;
+                ], ButtonComponent);
+                return ButtonComponent;
             }());
-            exports_1("AppComponent", AppComponent);
+            exports_1("ButtonComponent", ButtonComponent);
         }
     }
 });
-//# sourceMappingURL=app.component.js.map
+//# sourceMappingURL=button.component.js.map
